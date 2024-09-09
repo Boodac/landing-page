@@ -102,6 +102,12 @@ h2 {
     gap: 4rem;
 }
 
+@media only screen and (max-width:900px) {
+    .image-row {
+        flex-wrap: wrap;
+    }
+}
+
 .imgtxt {
     display: flex;
     flex-direction: column;
@@ -111,13 +117,14 @@ h2 {
 .images {
     border: 3px solid #3882f6;
     border-radius: 1em;
+    height: 100%;
 }
 
 .testimonial {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding: 6rem 18rem;
+    padding: 6rem 20%;
 }
 
 .quote {
