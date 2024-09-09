@@ -100,10 +100,9 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 4rem;
-    flex-wrap: wrap;
 }
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:1079px) {
     .image-row {
         flex-wrap: wrap;
     }
@@ -119,6 +118,8 @@ h2 {
 .images {
     border: 3px solid #3882f6;
     border-radius: 1em;
+    max-width: 200px;
+    height: auto;
 }
 
 .testimonial {
